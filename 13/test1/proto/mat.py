@@ -3,7 +3,7 @@
 # /proto/mat.py
 
 class Matrix(object):
-	def __init__(self, data):
-		self.data = data
-		self.n = len(data)
-		self.m = len(data[0])
+    def __init__(self, data):
+        self.data = data
+        self.n = len(data)
+        self.m = len(data[0])
